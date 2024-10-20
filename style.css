@@ -38,21 +38,46 @@ body{
 }
 .media{
     position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     bottom: 25px;
     left: 25%;
-    width: 50%;
+    width: 40%;
     background-color: white;
     height: 5rem;
     border-radius: 40px;
     text-align: center;
     overflow: hidden;
+    font-size: 2rem;
+    letter-spacing: .1em;
+    
 
 }
 .media p{
     text-transform: uppercase;
-    font-size: 150%;
-    font-family: ;
     font-weight: 900;
+    
+}
+.pg-desc{
+    width: 100%;
+    height: 100dvb;
+    display: flex;
+    justify-content: center;
+    background-color: blanchedalmond;
+}
+.desc{
+    width: 90%;
+    padding: 15px;
+    letter-spacing: .1em;
+    font-size: 1.5rem;
+    line-height: 3rem;
+    margin-top: 4rem;
+}
+.desc h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 4.3rem;
     
 }
 @media only screen and (max-width: 900px){
@@ -60,5 +85,12 @@ body{
         bottom: 70px;
         left: 25%;
         width: 50%;
+    }
+    .media{
+        font-size: .8rem;
+    }
+    .desc{
+        font-size: .8rem;
+        font-weight: 900;
     }
 }
