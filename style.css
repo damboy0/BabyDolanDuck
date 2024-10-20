@@ -112,6 +112,36 @@ body{
 .marquee img{
     height: 80%;
 }
+.pg-background{
+    width: 100%;
+    height: 100dvb;
+    
+    padding: 0;
+}
+.cont-background{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    
+}
+.background-1, .background-2{
+    width: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px;
+    letter-spacing: .1em;
+    font-size: 2rem;
+    line-height: 3rem;
+    color: #ffffff;
+}
+.background-1{
+    background-image: url(Asset/media/img-desc.png);
+}
+.background-2{
+    background-image: url(Asset/media/img-desc.png);
+}
 
 @keyframes scroll-left {
     0% {
@@ -141,6 +171,29 @@ body{
     }
     .marquee{
         height: 30%;
+    }
+    .cont-background{
+        flex-direction: column;
+    }
+    .pg-background{
+        width: 100%;
+        height: 200dvh;
+        overflow: scroll;
+        padding: 0;
+    }
+    .cont-background{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        flex-wrap: nowrap;
+    }
+    .background-1, .background-2{
+        padding: 15px;
+        width: 100%;
+        height: 50%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
 }
