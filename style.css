@@ -60,17 +60,19 @@ body{
     
 }
 .pg-desc{
-    
+    display: flex;
+    flex-direction: column;
     width: 100%;
     height: 100dvb;
     justify-content: center;
     align-items: center;
     background-color: blanchedalmond;
+    overflow: hidden;
     
 }
 
 .desc{
-    width: 90%;
+    width: 80%;
     padding: 10px;
     letter-spacing: .1em;
     font-size: 1.5rem;
@@ -84,8 +86,6 @@ body{
     
 }
 .marquee {
-    position: absolute;
-    bottom: ;
     box-shadow: 0 1px 3px rgba(0, 0, 0, .1);
     border: 1px solid rgba(0, 0, 0, .15);
     background-color: #000000;
@@ -131,8 +131,16 @@ body{
     .media{
         font-size: .8rem;
     }
+    .pg-desc{
+        overflow: unset;
+        height: unset;
+    }
     .desc{
         font-size: .8rem;
         font-weight: 900;
     }
+    .marquee{
+        height: 30%;
+    }
+
 }
