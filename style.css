@@ -60,13 +60,13 @@ body{
     
 }
 .pg-desc{
-    position: relative;
+    
     width: 100%;
     height: 100dvb;
     justify-content: center;
     align-items: center;
     background-color: blanchedalmond;
-    overflow: hidden;
+    
 }
 
 .desc{
@@ -85,13 +85,13 @@ body{
 }
 .marquee {
     position: absolute;
-    bottom: -5.3rem;
+    bottom: ;
     box-shadow: 0 1px 3px rgba(0, 0, 0, .1);
     border: 1px solid rgba(0, 0, 0, .15);
     background-color: #000000;
     overflow: hidden;
     position: relative;
-    height: 50px;
+    height: 20%;
     width: 100%;
     /* Full width of its parent */
     white-space: nowrap;
@@ -108,6 +108,9 @@ body{
     transform: translateX(100%);
     /* Animate to the left */
     animation: scroll-left 20s linear infinite;
+}
+.marquee img{
+    height: 80%;
 }
 
 @keyframes scroll-left {
