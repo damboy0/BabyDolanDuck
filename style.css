@@ -211,7 +211,7 @@ body{
     width: 100%;
     height: 100dvh;
     padding: 0;
-    background-color: blanchedalmond;
+    background-color: wheat;
 }
 .cont-dolan{
     width: 100%;
@@ -311,6 +311,7 @@ body{
         height: 80dvh;
         padding: 0;
         background-color: black;
+        overflow: hidden;
     }
     .cont-xchange{
         width: 100%;
@@ -324,6 +325,83 @@ body{
     .cont-xchange div{
         width: 40%;
     }
+    .pg-tokenomics{
+        height: 200dvh;
+        overflow: hidden;
+    }
+    .pg-tokenomics h2{
+        font-size: 1.5rem;
+    }
+    .cont-fig{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .cont-fig .tx-fig{
+        width: 40%;
+        border-radius: 20px;
+        border: 3px solid gold;
+        margin-bottom: 10px;
+        padding: 5px;
+        text-wrap: wrap;
+        font-size: 1.2rem;
+        line-height: 1.5em;
+        text-align: center;
+        background-color: wheat;
+    
+    }
+    .tokenomics-ca{
+        width: 70%;
+        height: 3.5rem;
+        background-color: black;
+        border-radius: 30px;
+        text-align: center;
+        font-size: 1rem;
+        color: white;
+    }
+    .pg-dolan{
+        width: 100%;
+        height: 100dvh;
+        padding: 0;
+        background-color: wheat;
+        overflow: hidden;
+    }
+    .cont-dolan{
+        width: 100%;
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .cont-dolan h2{
+        text-transform: uppercase;
+        font-size: 1.5rem;
+        font-family: fantasy;
+    }
+    .cont-map{
+        width: 80%;
+        height: 70%;
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .cont-map div{
+        width: 25%;
+        height: 3rem;
+        margin-bottom: 15px;
+        padding: 10px;
+        border: 4px solid rgb(244, 224, 7);
+        border-radius: 30px;
+        background-color: black;
+        color: white;
+    
+    
+    }
+    
 
 
 }
