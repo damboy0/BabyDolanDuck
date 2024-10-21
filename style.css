@@ -1,7 +1,7 @@
 body{
     padding: 0;
     margin: 0;
-    color: chocolate;
+    color: rgb(79, 48, 26);
 }
 .prnt-cont{
     width: 100%;
@@ -14,7 +14,7 @@ body{
 .brnd-ban{
     width: 100%;
     height: 100%;
-    background-image: url(Asset/media/hero.png);
+    background-image: url(Asset/media/Dolan2.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -94,7 +94,7 @@ body{
     height: 20%;
     width: 100%;
     /* Full width of its parent */
-    white-space: nowrap;
+    white-space: wrap;
 }
 
 .marquee p {
@@ -115,7 +115,7 @@ body{
 .pg-background{
     width: 100%;
     height: 100dvb;
-    
+    color: rgb(188, 108, 51);
     padding: 0;
 }
 .cont-background{
@@ -134,13 +134,34 @@ body{
     letter-spacing: .1em;
     font-size: 2rem;
     line-height: 3rem;
-    color: #ffffff;
+    
 }
 .background-1{
-    background-image: url(Asset/media/img-desc.png);
+    background-image: url(Asset/media/Dolan1.jpg);
 }
 .background-2{
-    background-image: url(Asset/media/img-desc.png);
+    background-image: url(Asset/media/Dolan5.jpg);
+}
+.pg-xchange{
+    width: 100%;
+    height: 50dvh;
+    padding: 0;
+    background-color: black;
+}
+.cont-xchange{
+    width: 90%;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.cont-xchange div{
+    width: 30%;
+}
+.cont-xchange div img{
+    width: 100%;
+    height: 100%;
 }
 
 @keyframes scroll-left {
@@ -164,13 +185,22 @@ body{
     .pg-desc{
         overflow: unset;
         height: unset;
+        
     }
     .desc{
         font-size: .8rem;
         font-weight: 900;
+        letter-spacing: .1em;
+        font-size: 1.5rem;
+        line-height: 3rem;
+        margin-top: 2rem;
+    }
+    .desc h2{
+        font-size: 2rem;
     }
     .marquee{
         height: 30%;
+        z-index: 999;
     }
     .cont-background{
         flex-direction: column;
@@ -195,5 +225,24 @@ body{
         background-repeat: no-repeat;
         background-size: cover;
     }
+    .pg-xchange{
+        width: 100%;
+        height: 80dvh;
+        padding: 0;
+        background-color: black;
+    }
+    .cont-xchange{
+        width: 100%;
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .cont-xchange div{
+        width: 40%;
+    }
+
 
 }
