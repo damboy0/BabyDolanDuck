@@ -5,11 +5,13 @@ body{
 }
 .prnt-cont{
     width: 100%;
+    overflow: hidden;
     
 }
 .pg-home{
     width: 100%;
     height: 100dvb;
+    overflow: hidden;
 }
 .brnd-ban{
     width: 100%;
