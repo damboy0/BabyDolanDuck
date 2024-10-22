@@ -89,7 +89,7 @@ body{
 .desc h2{
     text-align: center;
     text-transform: uppercase;
-    font-size: 4.3rem;
+    font-size: 4rem;
     
 }
 .marquee {
@@ -140,7 +140,7 @@ body{
     padding: 10px;
     letter-spacing: .1em;
     font-size: 2rem;
-    line-height: 3rem;
+    line-height: 2rem;
     color: white;
     
 }
@@ -152,9 +152,15 @@ body{
 }
 .pg-xchange{
     width: 100%;
-    height: 50dvh;
+    height: 100dvh;
     padding: 0;
     background-color: black;
+}
+.pg-xchange h2{
+    text-align: center;
+    font-size: 2rem;
+    margin: 2rem 0;
+    color: wheat;
 }
 .cont-xchange{
     width: 90%;
@@ -244,7 +250,7 @@ body{
 .cont-map div{
     width: 25%;
     padding: 20px;
-    line-height: 5em;
+    line-height: 2em;
     border: 4px solid rgb(244, 224, 7);
     border-radius: 30px;
     background-color: black;
@@ -253,7 +259,7 @@ body{
     text-align: center;
 }
 .cont-map li{
-    font-size: 1.5rem;
+    font-size: 1rem;
 
 }
 
@@ -314,7 +320,8 @@ body{
         flex-wrap: nowrap;
     }
     .background-1, .background-2{
-        padding: 15px;
+        font-size: 1.2rem;
+        padding: 10px;
         width: 100%;
         height: 50%;
         background-position: center;
@@ -323,19 +330,18 @@ body{
     }
     .pg-xchange{
         width: 100%;
-        height: 40dvh;
+        height: 100dvh;
         padding: 0;
         background-color: black;
         overflow: hidden;
     }
     .cont-xchange{
         width: 100%;
-        padding: 15px;
+        padding: 5px;
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
-        flex-wrap: wrap;
     }
     .cont-xchange div{
         width: 40%;
